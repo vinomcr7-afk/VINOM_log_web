@@ -1,15 +1,14 @@
 
 {
   "name": "pw-venom-logs-web",
-  "version": "1.0.0",
-  "description": "PW VENOM LOGS Dashboard",
+  "version": "1.2.0",
+  "private": true,
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "axios": "^1.7.9",
-    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "express-session": "^1.18.1"
   }

@@ -1,54 +1,11 @@
-* {
-  box-sizing: border-box;
-  }
-
 body {
-margin: 0;
-background: #080808;
+background-color: #080808;
+background-image:
+linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.85)),
+url('/venom.gif');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
 color: #ffffff;
-font-family: Arial, sans-serif;
-}
-
-header {
-background: #111111;
-border-bottom: 2px solid #d90020;
-padding: 20px;
-text-align: center;
-}
-
-h1 {
-color: #e00020;
-text-shadow: 0 0 12px #700010;
-}
-
-.box {
-background: #151515;
-border: 1px solid #b90020;
-border-radius: 15px;
-padding: 20px;
-margin: 20px auto;
-max-width: 500px;
-text-align: center;
-}
-
-button,
-.btn {
-background: #d00020;
-color: white;
-border: none;
-border-radius: 8px;
-padding: 12px 20px;
-cursor: pointer;
-text-decoration: none;
-display: inline-block;
-}
-
-button:hover,
-.btn:hover {
-background: #ff002b;
-}
-
-img {
-max-width: 100%;
-height: auto;
 }

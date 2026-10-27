@@ -1,7 +1,6 @@
 {
   "name": "pw-venom-logs-web",
   "version": "1.0.0",
-  "description": "PW VENOM LOGS Discord dashboard",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

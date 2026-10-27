@@ -1,12 +1,14 @@
+
 {
-  "name": "pw-venom-logs-web",
+  "name": "pw-venom-log",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "PW VENOM LOG Bot and Dashboard",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "axios": "^1.7.9",
+    "discord.js": "^14.19.3",
     "express": "^4.21.2",
     "express-session": "^1.18.1"
   }
